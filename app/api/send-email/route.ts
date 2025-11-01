@@ -9,12 +9,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Todos los campos son requeridos" }, { status: 400 })
     }
 
-    // Obtener el correo de destino de las variables de entorno
-    const businessEmail = process.env.BUSINESS_EMAIL || "info@avencio.com"
+    // Correo de destino fijo
+    const businessEmail = "pdesarrollo839@gmail.com"
 
-    // Usar Resend API si está disponible, si no usar un simulador
+    // Usar Resend API
     try {
-      // Este es un ejemplo usando Resend (debes instalar: npm install resend)
       const response = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: {
@@ -22,10 +21,10 @@ export async function POST(request: NextRequest) {
           Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
         },
         body: JSON.stringify({
-          from: "contacto@avencio.com",
+          from: "onboarding@resend.dev",  // Correo de prueba de Resend
           to: businessEmail,
           reply_to: correo,
-          subject: `Nuevo contacto de ${nombre} - Avencio`,
+          subject: `Nuevo contacto de ${nombre} - Soluciones RYS S.A.S`,
           html: `
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
               <div style="background: linear-gradient(135deg, #285795 0%, #0e284a 100%); color: #fcfcfc; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
@@ -40,7 +39,7 @@ export async function POST(request: NextRequest) {
                 <p style="white-space: pre-wrap; color: #333;">${servicio}</p>
                 <hr style="border: none; border-top: 1px solid #e8e8e8; margin: 20px 0;">
                 <p style="font-size: 12px; color: #666;">
-                  Este mensaje fue enviado desde el formulario de contacto de Avencio.
+                  Este mensaje fue enviado desde el formulario de contacto de Soluciones RYS S.A.S.
                 </p>
               </div>
             </div>
