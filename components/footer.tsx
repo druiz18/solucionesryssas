@@ -14,9 +14,9 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* Empresa Info */}
             <div>
-              <h3 className="text-xl font-bold mb-4">Avencio</h3>
+              <h3 className="text-xl font-bold mb-4">Soluciones RYS S.A.S</h3>
               <p className="opacity-90">
-                Somos un equipo dedicado a transformar ideas en soluciones digitales innovadoras.
+                Donde cada proyecto es un paso para un mundo mejor
               </p>
             </div>
 
@@ -26,19 +26,19 @@ export function Footer() {
               <div className="space-y-2 opacity-90">
                 <div className="flex items-center gap-2">
                   <Phone size={18} />
-                  <a href="tel:+1234567890" className="hover:underline">
-                    +1 (234) 567-890
+                  <a href="tel:+3108568427" className="hover:underline">
+                    (310) 856-8427
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail size={18} />
-                  <a href="mailto:info@avencio.com" className="hover:underline">
-                    info@avencio.com
+                  <a href="mailto:solucionesryssas@gmail.com" className="hover:underline">
+                    solucionesryssas@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={18} />
-                  <span>Carrera 1 #23, Bogotá, Colombia</span>
+                  <span>Avenida 9 No. 180 - 12, Cota, Cundinamarca</span>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ export function Footer() {
           </div>
 
           <div className="border-t border-primary-foreground/30 pt-8 text-center opacity-75">
-            <p>&copy; 2025 Avencio. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Soluciones RYS S.A.S. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>

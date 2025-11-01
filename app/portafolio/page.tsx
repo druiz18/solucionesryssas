@@ -5,67 +5,67 @@ import { ServiceCard } from "@/components/service-card"
 const services = [
   {
     id: 1,
-    title: "Desarrollo Web Personalizado",
-    image: "/desarrollo-web-personalizado.jpg",
+    title: "Instalación de adoquín",
+    image: "/adoquin.png",
     description:
-      "Creamos sitios web a medida utilizando las tecnologías más modernas. Desde aplicaciones estáticas hasta complejos sistemas dinámicos, nos adaptamos a tus necesidades. Nuestro equipo se especializa en React, Next.js, Vue.js y otras tecnologías de vanguardia.",
+      "Instalación profesional de adoquines para áreas peatonales, vías vehiculares, parqueaderos y zonas de alto tráfico. Utilizamos materiales de alta calidad y técnicas especializadas para garantizar durabilidad y estética.",
   },
   {
     id: 2,
-    title: "Aplicaciones Móviles",
-    image: "/aplicaciones-moviles-desarrollo.jpg",
+    title: "Instalación de bordillo",
+    image: "/bordillo.jpg",
     description:
-      "Desarrollamos aplicaciones móviles nativas y multiplataforma para iOS y Android. Utilizamos React Native y Flutter para garantizar rendimiento óptimo y experiencia de usuario excepcional en cualquier dispositivo.",
+      "Fabricación e instalación de bordillos de concreto para delimitación de andenes, separación de vías y control de aguas lluvias. Realizamos trabajos con altos estándares de calidad y precisión.",
   },
   {
     id: 3,
-    title: "E-commerce y Tiendas Online",
-    image: "/tienda-online-ecommerce.png",
+    title: "Fundida de muros de contención",
+    image: "/muroContencion.jpg",
     description:
-      "Diseñamos y desarrollamos plataformas de comercio electrónico seguras y escalables. Integramos pasarelas de pago, sistemas de inventario y análisis avanzados para impulsar tus ventas.",
+      "Construcción de muros de contención en concreto armado para estabilización de taludes, control de erosión y contención de tierras. Diseñamos soluciones estructurales seguras y duraderas.",
   },
   {
     id: 4,
-    title: "Consultoría Digital",
-    image: "/consultor-a-digital-estrategia.jpg",
+    title: "Construcción de cerramientos",
+    image: "/cerramientos.jpg",
     description:
-      "Ofrecemos consultoría estratégica para transformar tu negocio digitalmente. Ayudamos a identificar oportunidades, optimizar procesos y seleccionar las mejores soluciones tecnológicas para tu empresa.",
+      "Construcción de cerramientos definitivos y provisionales para proyectos residenciales, comerciales e industriales. Ofrecemos soluciones adaptadas a las necesidades específicas de cada proyecto.",
   },
   {
     id: 5,
-    title: "Cloud y Infraestructura",
-    image: "/cloud-infrastructure-servicios.jpg",
+    title: "Subestaciones eléctricas",
+    image: "/subestacion.jpg",
     description:
-      "Implementamos soluciones cloud robustas utilizando AWS, Google Cloud y Azure. Garantizamos escalabilidad, seguridad y disponibilidad 24/7 para tus aplicaciones críticas.",
+      "Construcción de subestaciones eléctricas con los más altos estándares de seguridad y normatividad vigente. Realizamos desde el diseño hasta la puesta en marcha de la infraestructura eléctrica.",
   },
   {
     id: 6,
-    title: "Inteligencia Artificial",
-    image: "/inteligencia-artificial-machine-learning.jpg",
+    title: "Pérgolas y depósitos",
+    image: "/pergola.jpg",
     description:
-      "Desarrollamos soluciones basadas en IA y Machine Learning para automatizar procesos y generar insights valiosos. Desde chatbots inteligentes hasta sistemas predictivos complejos.",
+      "Diseño y construcción de pérgolas y depósitos adaptados a las necesidades de cada cliente. Utilizamos materiales de primera calidad para garantizar durabilidad y funcionalidad.",
   },
   {
     id: 7,
-    title: "Seguridad y Auditoría IT",
-    image: "/seguridad-ciberseguridad-auditor-a.jpg",
+    title: "Andenes en concreto",
+    image: "/anden.jpg",
     description:
-      "Realizamos auditorías de seguridad completas y implementamos medidas de protección de datos. Garantizamos el cumplimiento de normativas como GDPR, HIPAA y estándares internacionales de seguridad.",
+      "Fundida en concreto de andenes peatonales con acabados de alta calidad. Realizamos trabajos que combinan funcionalidad, accesibilidad y estética urbana.",
   },
   {
     id: 8,
-    title: "Diseño UX/UI",
-    image: "/dise-o-ux-ui-interfaz-usuario.jpg",
+    title: "Construcción de cárcamos",
+    image: "/carcamo.jpg",
     description:
-      "Creamos interfaces hermosas, intuitivas y funcionales. Nuestro equipo de diseñadores sigue las mejores prácticas de UX/UI para garantizar una experiencia de usuario excepcional.",
+      "Construcción de cárcamos para sistemas de bombeo y almacenamiento de aguas. Nuestras soluciones garantizan un manejo eficiente y seguro de aguas residuales y lluvias.",
   },
   {
     id: 9,
-    title: "Mantenimiento y Soporte",
-    image: "/mantenimiento-soporte-t-cnico.jpg",
+    title: "Nichos para medidores de gas",
+    image: "/nicho-gas.jpg",
     description:
-      "Ofrecemos servicios de mantenimiento preventivo, soporte técnico 24/7 y actualizaciones continuas. Nos encargamos de que tus sistemas funcionen sin interrupciones.",
-  },
+      "Fabricación e instalación de nichos para medidores de gas con materiales resistentes y siguiendo todos los protocolos de seguridad. Garantizamos accesibilidad y protección para los equipos de medición."
+  }
 ]
 
 export default function Portfolio() {

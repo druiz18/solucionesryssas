@@ -8,18 +8,18 @@ import Image from "next/image";
 const slides = [
   {
     id: 1,
-    image: "/modern-office-with-blue-theme.jpg",
-    title: "Soluciones Digitales Innovadoras",
+    image: "/adoquin.png",
+    title: "Instalación de adoquines",
   },
   {
     id: 2,
-    image: "/team-collaboration-workspace.png",
-    title: "Transformamos tu Visión en Realidad",
+    image: "/muroContencion.jpg",
+    title: "Fundición de muro de contención",
   },
   {
     id: 3,
-    image: "/technology-business-success.jpg",
-    title: "Crecimiento Empresarial Sostenible",
+    image: "/bordillo.jpg",
+    title: "Instalación de bordillos",
   },
 ];
 

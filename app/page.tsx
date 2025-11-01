@@ -19,7 +19,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/modern-office-with-blue-theme.jpg"
+                src="/quienesSomos.jpg"
                 alt="Equipo de trabajo"
                 width={800}
                 height={384}
@@ -28,18 +28,55 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-foreground mb-6">
-                Acerca de Nosotros
+                ¿Quienes Somos?
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Somos una empresa dedicada a transformar ideas en soluciones
-                digitales innovadoras. Con más de 10 años de experiencia, hemos
-                ayudado a cientos de empresas a alcanzar sus objetivos a través
-                de tecnología de punta.
+                Soluciones R.Y.S S.A.S. es una empresa constituida en el año 2019 por el señor José Pineda, quien se desempeñó como Oficial durante diez (10) años en el sector del urbanismo. Durante ese tiempo, adquirió los conocimientos técnicos y administrativos necesarios para conformar su propia empresa en el ámbito de la construcción.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Nuestro equipo de expertos trabaja sin descanso para garantizar
-                que cada proyecto sea una obra maestra. Nos comprometemos con la
-                excelencia, la innovación y la satisfacción del cliente.
+                La compañía inició sus actividades con un equipo reducido de dos trabajadores, desarrollando proyectos por contrato. Gracias a su compromiso, eficiencia y calidad en la ejecución, logró posicionarse favorablemente en el sector, lo que permitió ampliar progresivamente su portafolio de clientes y aumentar la cantidad de colaboradores.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Misión y Visión */}
+      <section id="mision-vision" className="py-20 px-4 bg-muted/30">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-center text-foreground mb-12">
+            Misión y Visión
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Misión */}
+            <div className="bg-card p-8 rounded-lg shadow-lg">
+              <div className="text-5xl text-primary mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Nuestra Misión</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Diseñar y desarrollar espacios urbanos innovadores, sostenibles y funcionales, mejorando la calidad de vida de las personas y promoviendo un crecimiento ordenado, eficiente y respetuoso con el medio ambiente.
+              </p>
+            </div>
+
+            {/* Visión */}
+            <div className="bg-card p-8 rounded-lg shadow-lg">
+              <div className="text-5xl text-primary mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <line x1="21.17" y1="8" x2="12" y2="8"></line>
+                  <line x1="3.95" y1="6.06" x2="8.54" y2="14"></line>
+                  <line x1="10.88" y1="21.94" x2="15.46" y2="14"></line>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Nuestra Visión</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Para el año 2030 ser líder en urbanismo y desarrollo sostenible, destacándose por su impacto positivo en la planificación y transformación de proyectos, construyendo bienestar social y equilibrio ambiental. 
               </p>
             </div>
           </div>
@@ -57,7 +94,7 @@ export default function Home() {
             {/* Case 1 */}
             <div className="bg-card rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Image
-                src="/technology-business-success.jpg"
+                src="/caso1.jpg"
                 alt="Caso de éxito 1"
                 width={400}
                 height={192}
@@ -65,18 +102,17 @@ export default function Home() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-2">
-                  Transformación Digital Empresarial
+                   Urbanización Los Almendros – Cota, Cundinamarca
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Implementamos una solución integral que aumentó la
-                  productividad en un 45% y redujo costos operacionales.
+                  Servicio de instalación de adoquines y bordillos.
                 </p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    Consultoría
+                    Exteriores
                   </span>
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    Tecnología
+                    Construcción
                   </span>
                 </div>
               </div>
@@ -85,7 +121,7 @@ export default function Home() {
             {/* Case 2 */}
             <div className="bg-card rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Image
-                src="/team-collaboration-workspace.png"
+                src="/caso2.jpg"
                 alt="Caso de éxito 2"
                 width={400}
                 height={192}
@@ -93,18 +129,17 @@ export default function Home() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-2">
-                  Platform de Colaboración
+                  Residencia Familiar – Chía, Cundinamarca
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Desarrollamos una plataforma que permitió a más de 500
-                  empleados colaborar eficientemente desde cualquier ubicación.
+                  Servicio de instalación de pergola.
                 </p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    Desarrollo
+                    Exteriores
                   </span>
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    SaaS
+                    Cubierta
                   </span>
                 </div>
               </div>
@@ -113,7 +148,7 @@ export default function Home() {
             {/* Case 3 */}
             <div className="bg-card rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Image
-                src="/modern-office-with-blue-theme.jpg"
+                src="/caso3.jpg"
                 alt="Caso de éxito 3"
                 width={400}
                 height={192}
@@ -121,18 +156,17 @@ export default function Home() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-2">
-                  Automatización Inteligente
+                  Aceras
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Implementamos sistemas de automatización que redujeron tiempos
-                  de procesamiento en un 60% y errores en un 80%.
+                  Servicio de instalación de aceras.
                 </p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    Automatización
+                    Exteriores
                   </span>
                   <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                    IA
+                    Alto tráfico
                   </span>
                 </div>
               </div>
